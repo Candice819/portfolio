@@ -1,24 +1,17 @@
-import logo from './logo.svg';
-import './App.css';
+
+import logo from './img/candice_mckenna.jpg';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-         This is my portfolio. 
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+  <div>
+    <h1>Candice McKenna</h1>
+    <p>Hello! text here ...bla bla lorem ipsum shortcut not working. lame. </p>
+  
+  <figure>
+    <img class="portfolio-img" src={logo} alt="Candice McKenna"/>
+  </figure>
     </div>
+
   );
 }
 
